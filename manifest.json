@@ -1,0 +1,32 @@
+{
+    "manifest_version": 2,
+
+    "name": "YOUMI GITLAB NOTE IMG",
+
+    "author": "90arther@gmail.com",
+
+    "description": "This extension preview img for the current page",
+
+    "version": "1.0",
+
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "https://git.umlife.net/*"
+    ],
+
+    "content_scripts": [
+        {
+            "matches": ["https://git.umlife.net/*"],
+            "css": [
+                "lib/jquery-ui/jquery-ui.css",
+                "resource/global.css"
+            ],
+            "js": [
+                "lib/jquery.1.9.1.js",
+                "lib/jquery-ui/jquery-ui.js",
+                "resource/main.js"
+            ]
+        }
+    ]
+}
