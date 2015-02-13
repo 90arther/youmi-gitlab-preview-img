@@ -10,7 +10,7 @@ Gitlab的图片预览
 于是乎, 就有了这个chrome插件, 让大家可以预览图片.
 
 - [Doccument](http://www.90arther.net/youmi-gitlab-preview-img/)
-- #### Reference
+#### Reference
 - [https://developer.chrome.com/extensions/getstarted](https://developer.chrome.com/extensions/getstarted)
 - [https://developer.chrome.com/extensions/browserAction](https://developer.chrome.com/extensions/browserAction)
 - [https://developer.chrome.com/extensions/activeTab](https://developer.chrome.com/extensions/activeTab)
