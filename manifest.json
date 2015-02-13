@@ -1,11 +1,13 @@
 {
     "manifest_version": 2,
 
-    "name": "YOUMI GITLAB NOTE IMG",
+    "name": "YOUMI GITLAB PREVIEW IMG",
 
     "author": "90arther@gmail.com",
 
     "description": "This extension preview img for the current page",
+
+    "icons": {"128": "resource/icon.png"},
 
     "version": "1.0",
 
